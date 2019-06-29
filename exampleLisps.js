@@ -60,3 +60,10 @@ const longExample = `
   )
   (write(averagenum 5 10 6))
   `
+
+module.exports = {
+  longExample,
+  example1,
+  invalidExample,
+  commentingExample
+}

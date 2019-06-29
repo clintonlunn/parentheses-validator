@@ -36,7 +36,9 @@ function validateLisp(string) {
                 stack.pop();
 
             } else {
-                return console.log(failMsg);
+                console.log(failMsg);
+                return failMsg;
+
 
             }
         }
@@ -45,11 +47,13 @@ function validateLisp(string) {
     // then check if stck is empty after the loop
     if (stack.length === 0) {
         // then we have matched all of the parentheses
-        return console.log(successMsg);
+        console.log(successMsg);
+        return successMsg;
 
 
     } else {
-        return console.log(failMsg);
+        console.log(failMsg);
+        return failMsg
 
     }
 }

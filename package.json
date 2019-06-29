@@ -1,0 +1,23 @@
+{
+  "name": "parentheses-validator",
+  "version": "1.0.0",
+  "description": "A parentheses validator to check whether proper nesting is used within a block of Lisp code.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintonlunn/parentheses-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintonlunn/parentheses-validator/issues"
+  },
+  "homepage": "https://github.com/clintonlunn/parentheses-validator#readme"
+}

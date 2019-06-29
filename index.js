@@ -1,6 +1,6 @@
-import {
-    ModuleMap
-} from "jest-haste-map";
+// import {
+//     ModuleMap
+// } from "jest-haste-map";
 
 // Coding exercise: You are tasked to write a checker
 // that validates the parentheses of a LISP code. Write a program
@@ -54,6 +54,5 @@ function validateLisp(string) {
     }
 }
 
-validateLisp(example2);
-
-module.export(validateLisp);
+// validateLisp(example2);
+module.exports = validateLisp

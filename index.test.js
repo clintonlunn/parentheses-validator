@@ -2,7 +2,7 @@ const validateLisp = require('./index');
 
 
 console.log({
-    commentingExample: commentingExample
+    commentingExample: 'HI'
 })
 
 test('adds 1 + 2 to equal 3', () => {

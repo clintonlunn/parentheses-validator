@@ -1,3 +1,7 @@
+import {
+    ModuleMap
+} from "jest-haste-map";
+
 // Coding exercise: You are tasked to write a checker
 // that validates the parentheses of a LISP code. Write a program
 // (in Java or JavaScript) which takes in a string as an input and
@@ -6,11 +10,6 @@
 const sampleLisp = `
     ((lambda (arg) (* arg 2)) 10)
 `
-const openerHandler = (openParen) => {}
-
-const closingHandler = (closingParen) => {
-
-}
 
 function validateLisp(string) {
     // what we will hold parens in
@@ -21,8 +20,6 @@ function validateLisp(string) {
     for (i in string) {
         // hold the openers
         // if opener
-        if (string[i] === "(" || string[i] === ")");
-
         if (string[i] === '(') {
             stack.push('(')
         }
@@ -57,4 +54,6 @@ function validateLisp(string) {
     }
 }
 
-validateLisp(sampleLisp);
+validateLisp(example2);
+
+module.export(validateLisp);

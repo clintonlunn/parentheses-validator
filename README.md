@@ -1,4 +1,11 @@
-# parentheses-validator
-A parentheses validator to check whether proper nesting is used within a block of Lisp code. 
+## LISP parentheses validator
+### LISP Validation assignment
+This is a checker that checks whether LISP code is valid or not. It checks for correct number of opening and closing parentheses as well as correct nesting. 
 
-* Coding exercise: You are tasked to write a checker that validates the parentheses of a LISP code. Write a program (in Java or JavaScript) which takes in a string as an input and returns true if all the parentheses in the string are properly closed and nested.
+## Install Instructions:
+```
+git clone https://github.com/clintonlunn/parentheses-validator.git;
+cd parentheses-validator &&
+npm install &&
+node index.js;
+```

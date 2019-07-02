@@ -5,10 +5,6 @@ const {
     invalidExample,
     commentingExample
 } = require('./exampleLisps');
-console.log({
-    commentingExample: console.log(validateLisp('()')),
-    example1
-});
 
 test('test a valid lisp', () => {
     expect(validateLisp(example1)).toBe('valid lisp');

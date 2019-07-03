@@ -27,7 +27,7 @@ function validateLisp(string) {
 
             } else {
                 console.log(failMsg);
-                return failMsg;
+                return false;
             }
         }
     }

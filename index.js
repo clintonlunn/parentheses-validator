@@ -45,4 +45,4 @@ function validateLisp(string) {
     }
 }
 
-module.exports = validateLisp
+module.exports = validateLisp;

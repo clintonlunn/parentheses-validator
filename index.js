@@ -1,15 +1,7 @@
-// import {
-//     ModuleMap
-// } from "jest-haste-map";
-
 // Coding exercise: You are tasked to write a checker
 // that validates the parentheses of a LISP code. Write a program
 // (in Java or JavaScript) which takes in a string as an input and
 // returns true if all the parentheses in the string are properly closed and nested.
-
-const sampleLisp = `
-    ((lambda (arg) (* arg 2)) 10)
-`
 
 function validateLisp(string) {
     // what we will hold parens in
@@ -48,15 +40,13 @@ function validateLisp(string) {
     if (stack.length === 0) {
         // then we have matched all of the parentheses
         console.log(successMsg);
-        return successMsg;
-
+        return true;
 
     } else {
         console.log(failMsg);
-        return failMsg
+        return false
 
     }
 }
 
-// validateLisp(example2);
 module.exports = validateLisp

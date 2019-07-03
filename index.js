@@ -10,7 +10,6 @@ function validateLisp(string) {
     const successMsg = 'valid lisp';
 
     for (i in string) {
-        // hold the openers
         // if opener
         if (string[i] === '(') {
             stack.push('(')
@@ -20,7 +19,6 @@ function validateLisp(string) {
         if (string[i] === ')') {
             // the previous parentheses should be an opener
             // so let's look at the previous parenthesis
-
             const prevParen = stack[stack.length - 1];
 
             if (prevParen === '(' && stack.length !== 0) {
@@ -30,8 +28,6 @@ function validateLisp(string) {
             } else {
                 console.log(failMsg);
                 return failMsg;
-
-
             }
         }
     }
